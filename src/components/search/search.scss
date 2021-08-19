@@ -1,0 +1,28 @@
+input{
+    width: 400px;
+    height: 38px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  
+  .searchBox > button {
+    background-color: #4db33d;
+    height: 38px;
+    width: 60px;
+    border: none;
+    color: white;
+    box-shadow: 0px, 3px, 2px, #439e34;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .showResults{
+    width: 50px;
+    padding: 20px;
+  }
+  
+  .showResults > h2 > button {
+     background: none;
+     border: none;
+     cursor: pointer;
+  }

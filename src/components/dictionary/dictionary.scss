@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    height: 70px;
+    top:0;
+    position: fixed;
+    background-color: red;
+
+    .letterLinks{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
