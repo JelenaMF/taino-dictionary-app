@@ -5,6 +5,7 @@ import { FaSearch } from "react-icons/fa";
 /** imported components */
 import './search.scss';
 
+
 /** function Search creates a search input 
  * 
  * sets up intial state using react hooks 'useState' 
@@ -12,6 +13,7 @@ import './search.scss';
 export default function Search(){
     const [searchWord, setSearchWord] = useState('');
     
+
     return (
         <div className="searchBox">
             {/**take user input */}
